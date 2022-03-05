@@ -1,6 +1,89 @@
-h1{
+
+
+@media (min-width: 500px)/* 500 to INFINITY or if screen>=500px: */
+{
+  h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
   }
+  .color
+  {
+    background-attachment: fixed;
+    padding: 1px;
+  }
+  p
+  {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .fly
+  {
+    display: none;
+  }
+
+  .img_pro
+
+{
+    background-image: url('https://mdbootstrap.com/img/new/fluid/city/018.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 2000px;
+    padding: 25px 25px 25px 25px ;
+    background-attachment: fixed;
+    
 }
+
+  
+}
+
+
+
+#grid
+{
+    background-color: rgb(138, 66, 66) transparent;
+    display: grid;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+} 
+
+
+
+
+@media (max-width: 500px) /*up to 500px or if screen<=500px: */
+{
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.img_pro
+
+{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 2000px;
+    padding: 25px 25px 25px 25px;
+    background-attachment: fixed;
+}
+
+}
+
+
+/*
+offset
+padding 12 3 6 9; or methods
+@media for pixcels values
+*/
