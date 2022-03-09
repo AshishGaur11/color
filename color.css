@@ -1,5 +1,7 @@
 
 
+
+
 @media (min-width: 500px)/* 500 to INFINITY or if screen>=500px: */
 {
   h3{
@@ -8,21 +10,15 @@
     align-items: center;
     padding: 50px;
   }
+
   .color
-  {
-    background-attachment: fixed;
-    padding: 1px;
-  }
-  p
   {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    padding: 1px;
   }
-  .fly
-  {
-    display: none;
-  }
+ 
 
   .img_pro
 
@@ -32,7 +28,7 @@
     background-size: cover;
     background-position: center center;
     width: auto;
-    height: 2000px;
+    height: 1600px;
     padding: 25px 25px 25px 25px ;
     background-attachment: fixed;
     
@@ -45,11 +41,13 @@
 
 #grid
 {
-    background-color: rgb(138, 66, 66) transparent;
-    display: grid;
+    background-color: rgb(7, 6, 6) transparent;
     padding: 30px;
-    margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    background-attachment: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    border-radius: 20px;
 
     
 } 
@@ -74,9 +72,17 @@
     background-size: cover;
     background-position: center center;
     width: auto;
-    height: 2000px;
+    height: 1800;
     padding: 25px 25px 25px 25px;
     background-attachment: fixed;
+}
+
+.color-1
+{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 1px;
 }
 
 }
